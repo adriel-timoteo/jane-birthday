@@ -42,7 +42,7 @@ const animationTimeline = () => {
     const profilePicture = document.getElementById("imagePath");
     
     setInterval(() => {
-        currentImageIndex = Math.floor(Math.random() * 49);
+        currentImageIndex = Math.floor(Math.random() * 57);
         profilePicture.src = "./img/jane/" + currentImageIndex + ".jpg"
     }, 577); // Change image every 1 second
 
